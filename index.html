@@ -1,65 +1,150 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<html>
+<html lang="en">
 <head>
-<title>暗网</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./iconfont1/">
+    <title>暗网</title>
+    <link rel="stylesheet" href="./iconfont1/iconfont.css">
+    <style>
+    *{margin: 0;padding: 0;}
+    ul{list-style: none;}
+    img{display: block;}
+    a{text-decoration: none;color: black;}
+ 
+    header{height: 45px;background:#00b38a;font-size: 20px;color: white;
+    text-align: center;line-height: 45px;}
+ 
+    .login{height: 43px;display: flex;justify-content: space-between;align-items: center;
+    font-size: 14px;}
+    .login p{margin-left: 16px;}
+    .login div{width: 84px;height: 30px;background: #f5f5f5;margin-right: 15px;text-align: center;
+    line-height: 30px;border-radius: 15px;}
+    .login div a{display: block;width: 100%;height: 100%;}
+ 
+    .list{}
+    .list li{height: 90px;border-top: 1px #e8e8e8 solid;display: flex;align-items: center;}
+    .list .list_img{width: 60px;margin: 0 10px 0 14px;}
+    .list .list_img img{width: 100%;}
+    .list .list_info{flex: 1;}
+    .list .list_info h2{font-size: 18px;}
+    .list .list_info p:first-of-type{font-size: 14px;display: flex;justify-content: space-between;}
+    .list .list_info p:first-of-type span:last-of-type{margin-right: 14px;color: #17b994;}
+    .list .list_info p:last-of-type{font-size: 12px;color: #888888;margin-top: 8px;}
+ 
+    .more{height: 50px;background: #fafafa;border-top: 1px #e8e8e8 solid;text-align: center;
+    line-height: 50px;}
+    .more a{display: block;width: 100%;height: 100%;}
+ 
+    footer{height: 115px;text-align: center;font-size: 12px;line-height: 22px;
+    padding-top: 27px;box-sizing: border-box;margin-bottom: 45px;}
+  
+    .tabber{width: 100%; height: 45px;border-top: 1px #e8e8e8 solid;display: flex;position: fixed;
+    bottom: 0;background: #f6f6f6;font-size: 18px;color: #c2cfcc;}
+    .tabber i{font-size: 22px;position: relative;top: 2px;}
+    .tabber div{flex: 1;text-align: center;line-height: 45px;}
+    .tabber .active{background: #e7f3f0;color:#00b38a;}
+</style>
 </head>
 <body>
-<form>
-<h1>你想明白生命的意义吗？<br>你想真正的活着吗？</h1>
-<!——strong加粗——><!——br换行——><!——hr水平线——>
-<strong title="这是一个警告">警告
-</strong>
-<img src=" " alt="该图片已被和谐">
-<br>
-<audio src=" " alt="该音频已被和谐" controls autoplay loop></audio>
-<br>
-<video src=" " controls></video>
-<hr>
-<ul>
-<li>请先授权
-</li>
-</ul>
-手机号: <input tybe="text" value=" " name="nikname">
- <br> 
- <br>
- <button tybe="submit">提交</button>
- <br>
- <br> 
- <button tybe="reset">重置</button>
- <br>
-<s>NO</s>   <input type='button' value='YES' id='ok'/>
-<script>
-ok.onclick=function（）{
-alert（'您没有权限，请先授权'）
-}
-</script>
-<br>
-  <br>
-  <br>
-  <br>
-  <a href="./暗网.html">跳转</p>
-  <br>
-  <br>
-  <br>
-  <br>
-  <a href="./index.html">真正的YES</p>
-  <br>
-  <br>
-  <br>
-<input type='button' value='真正的NO' id='nook'/>
-<script>
-nook . onmouseover = function (){
-this . style . position =' absolute ';
- this . style . left = Math . random ()*innerWidth +＇ px ';
- this . style . top = Math . random ()* innerHeight +＇ px ';
-}
-</script>
-<br>
-  <br>
-  <br>
-  <br>
-    <a href="#">回到顶部</p>
-</form>  
+    <header>蜂巢暗网</header>
+    <section class="login">
+        <p>请先获得授权</p>
+        <div><a href="登录.html">去登陆</a></div>
+    </section>
+    <ul class="list">
+        <li>
+                <a href="特效.html"> </a>
+            </div>
+            <div class="list_info">
+            <h1><a href="特效.html">授权页</a></h1>
+            <p>
+                
+                <span> </span>
+            </p>
+            <p> </p>
+        </div>
+        </li>
+    </ul>
+    <ul class="list">
+        <li>
+            
+            </div>
+            <div class="list_info">
+            <h2><a href="404.html">进入网站</a></h2>
+            <p>
+                
+                <span>注意权限</span>
+            </p>
+            <p></p>
+        </div>
+        </li>
+    </ul>
+    <ul class="list">
+        <li>
+            <div class="list_img">
+                
+            </div>
+            <div class="list_info">
+            <h2><a href="暗网.html">跳转</a></h2>
+            <p>
+                <span></span>
+                <span></span>
+            </p>
+            <p></p>
+        </div>
+        </li>
+    </ul>
+    <ul class="list">
+        <li>
+            <div class="list_img">
+                
+            </div>
+            <div class="list_info">
+	<p id="showtime1" title="我们的征途是星辰大海">哈雷彗星的约定：</p>
+			<p id="showtime2" >14193天3:22:55</p>
+			<script>
+				var showtime2 = function () {
+					var nowtime = new Date();
+						endtime = new Date("2061/1/1");
+					var lefttime = endtime.getTime() - nowtime.getTime();
+						leftd = Math.floor(lefttime/(1000*60*60*24));  
+						lefth = Math.floor(lefttime/(1000*60*60)%24);  
+						leftm = Math.floor(lefttime/(1000*60)%60);  
+						lefts = Math.floor(lefttime/1000%60); 
+					return leftd + "&#22825;" + lefth + ":" + leftm + ":" + lefts;
+				}
+				var div = document.getElementById("showtime2");
+				setInterval (function () {
+					div.innerHTML = showtime2();
+				}, 1000);
+			</script>
+			<div class="time">
+				<script> 
+					document.write("<span id=time></span>") 
+					setInterval("time.innerText=new Date().toLocaleString()",1000)
+				</script> 
+			</div>
+		</div>
+        </li>
+
+        </div>
+        </li>
+    </ul>
+    <section class="more">
+        <a href="">刷新</a>
+    </section>
+    <footer>
+        <p>@2022 github.com,all right reserved</p>
+        <p>
+            <a href="#">移动端</a> ! <a href="#">移动端</a> ! <a href="#">移动端</a>
+        </p>
+    </footer>
+    <section class="tabber">
+        <div class="active"><i class="iconfont icon-home"></i> 首页</div>
+        <div><i class="iconfont icon-sousuo-"></i> 搜索</div>
+        <div><i class="iconfont icon-wode"></i> 我的</div>
+    </section>
 </body>
 </html>
